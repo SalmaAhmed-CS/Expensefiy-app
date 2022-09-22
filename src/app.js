@@ -3,6 +3,8 @@ import React from "react";
 import{Provider} from 'react-redux'
 import  ReactDOM  from "react-dom";
 import './styles/styles.css'
+// import 'normalize.css/normalize.css';
+// import 'react-dates/lib/css/_datepicker.css';
 import configureStore from './store/configureStore';
 import AppRouter from './routers/AppRouter'
 import {addExpense} from './actions/expenses'
